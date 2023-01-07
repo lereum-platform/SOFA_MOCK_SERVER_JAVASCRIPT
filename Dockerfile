@@ -1,4 +1,4 @@
-FROM public.ecr.aws/e7o5n8m9/node14-image:latest
+FROM public.ecr.aws/z5j7z6a1/node:14
 ENV NODE_OPTIONS --max-old-space-size=8192
 EXPOSE 8889
 COPY . .
